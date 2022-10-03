@@ -1,0 +1,10 @@
+$pd: 20px;
+
+section.block01 {
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

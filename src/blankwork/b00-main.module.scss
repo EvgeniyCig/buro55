@@ -1,0 +1,42 @@
+$pd: 20px;
+
+
+section.block00 {
+    min-height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+//    padding: 20px;
+    // position: fixed;
+
+
+    div.jfixed {
+        position: fixed;
+        top: $pd; 
+        left: $pd;
+        height: calc(100% - #{$pd}*2);
+        width: calc(100% - #{$pd}*2);
+//        background-color: brown;
+        border:  black 1px dotted;
+    }
+
+    div.jabsolute {
+        position: absolute;
+        top: $pd;
+        left: $pd;
+        right: $pd;
+        height: calc(100% - #{$pd}*2);
+        background-color: brown;
+    } 
+}
+
+section.block01 {
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
