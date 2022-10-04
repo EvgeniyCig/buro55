@@ -1,8 +1,8 @@
 $pd: 20px;
 
-
 section.block01 {
-    min-height: 100vh;
+    min-height: calc(var(--section-height) - 8px);
+    border: #22598a solid 4px;
     background-color: #2bb1e2;
     display: flex;
     flex-direction: column;

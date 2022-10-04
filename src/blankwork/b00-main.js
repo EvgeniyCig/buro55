@@ -4,6 +4,7 @@ import jstyles from './b00-main.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
+import {useEffect} from "react";
 
 
 // var RSwscroll = () => {
