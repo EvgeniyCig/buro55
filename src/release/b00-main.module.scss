@@ -9,3 +9,19 @@ section.block01 {
     justify-content: center;
     text-align: center;
 }
+
+
+section.block02 {
+    min-height: calc(var(--section-height) - 8px);
+    border: #22598a solid 4px;
+    background-color: #e2992b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    div {
+        background-color: #e2992b;
+        border: #500000 solid 1px;
+    }
+}
